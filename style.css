@@ -15,9 +15,55 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: var(--police1);
+    font-size: 16px;
+    background-color: var(--stone100);
+    color: var(--stone600);
 }
 
-.title{
+.card {
+    background-color: var(--white);
+    max-width: 1000px;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.image {
+    width: 90%;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+#main-title {
+    color: var(--stone900);
+}
+
+.preparation-time-container {
+    background-color: var(--rose50);
+    border-radius: 10px;
+    width: 90%;
+}
+
+#preparation-time-title {
+    color: var(--rose800);
+}
+
+.title {
     font-family: var(--police2);
+    color: var(--brown800);
+}
+
+#purple-list ::marker {
+    color: var(--rose800);
+}
+
+.list ::marker {
+    color: var(--brown800);
 }
